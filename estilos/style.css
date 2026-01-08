@@ -39,7 +39,7 @@ header {
   align-content: center;
 }
 
-#menu ul {
+nav#menu ul {
   list-style: none;
   display: flex;
   gap: 10px;
@@ -51,7 +51,7 @@ nav#menu a {
   font-weight: 600;
   padding: 12px 15px;
   border-radius: 5px;
-  transition: background-color .5s, color .5s;
+  transition: background-color 0.5s, color .5s;
 }
 
 nav#menu a:hover {
