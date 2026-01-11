@@ -261,6 +261,21 @@ footer a:hover {
 }
 
 @media screen and (min-width: 768px) {
+  main {
+    grid-template-columns: auto 300px 1fr auto;
+  }
+  
+  section#ficha {
+    grid-column: 2 / 3;
+    height: fit-content;
+    position: sticky;
+    top: 65px;
+  }
+
+  section#detalhes {
+    grid-column: 3 / 4;
+  }
+
   #skill-container {
     grid-template-columns: 1fr 1fr;
   }
@@ -270,9 +285,13 @@ footer a:hover {
     justify-content: space-between;
   }
 
+  #projet0container .projeto-info {
+    max-width: 80%;
+  }
 
   #projeto-container .foto {
+    max-width: 80%;
     aspect-ratio: 16/9;
-    max-width: 300px;
+    max-height: 200px;
   }
 }
